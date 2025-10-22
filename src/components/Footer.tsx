@@ -2,11 +2,11 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    {
-      id: "linkedin",
-      label: "LinkedIn",
-      url: "https://www.linkedin.com/in/gyanendrarajvaidhya/",
-      ariaLabel: "Visit my LinkedIn profile"
+  {
+      id: "instagram",
+      label: "Instagram",
+      url: "https://instagram.com/hopeworks.in",
+      ariaLabel: "Visit my Instagram profile"
     },
     {
       id: "github",
@@ -14,12 +14,14 @@ const Footer: React.FC = () => {
       url: "https://github.com/gyanraj06",
       ariaLabel: "Visit my GitHub profile"
     },
+    
     {
-      id: "instagram",
-      label: "Instagram",
-      url: "https://instagram.com/thus.ubermensch",
-      ariaLabel: "Visit my Instagram profile"
-    }
+      id: "linkedin",
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/mayank-ramani-entrepreneur/",
+      ariaLabel: "Visit my LinkedIn profile"
+    },
+    
   ];
 
   return (
