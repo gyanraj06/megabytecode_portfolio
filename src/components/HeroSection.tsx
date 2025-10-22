@@ -160,7 +160,7 @@ const HeroSection: React.FC = () => {
         <div className="max-w-5xl space-y-6 sm:space-y-8 md:space-y-10 lg:space-y-12">
           {/* Main headline with highlighted text */}
           <h1 className="text-[#D7E5FF] text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-light leading-[1.15] tracking-tight">
-            We are Melobyte — We build products from <span className="text-[#3CDA64] italic">concept to code</span>, where strategy meets execution.
+            We are Melobytecode — We build products from <span className="text-[#3CDA64] italic">concept to code</span>, where strategy meets execution.
           </h1>
 
           {/* Description paragraph */}
