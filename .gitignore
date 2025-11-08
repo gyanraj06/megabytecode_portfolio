@@ -4,3 +4,4 @@
 .playwright-mcp 
 .env
 .vercel
+"node_modules/" 
