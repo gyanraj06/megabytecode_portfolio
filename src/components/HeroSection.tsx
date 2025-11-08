@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const HeroSection: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -29,20 +29,23 @@ const HeroSection: React.FC = () => {
       setLastScrollY(currentScrollY);
     };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [isMobileMenuOpen, lastScrollY]);
 
   return (
-    <div id="home" className="relative w-full min-h-screen bg-black overflow-hidden">
+    <div
+      id="home"
+      className="relative w-full min-h-screen bg-black overflow-hidden"
+    >
       {/* Background image */}
       <div
         className="absolute inset-0"
         style={{
           backgroundImage: `url('/hero-background.png')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
         }}
       />
 
@@ -51,25 +54,26 @@ const HeroSection: React.FC = () => {
         className="absolute inset-0"
         style={{
           backgroundImage: `url('/grid.png')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
         }}
       />
 
       {/* Dark overlay for better text readability */}
-      
 
       {/* Mobile Menu Overlay */}
       <div
         className={`fixed top-0 left-0 right-0 md:hidden transition-all duration-300 ease-in-out rounded-b-3xl ${
-          isMobileMenuOpen ? 'translate-y-0 z-50 opacity-100' : '-translate-y-full z-[-1] opacity-0'
+          isMobileMenuOpen
+            ? "translate-y-0 z-50 opacity-100"
+            : "-translate-y-full z-[-1] opacity-0"
         }`}
         style={{
-          backdropFilter: 'blur(30px) saturate(180%)',
-          WebkitBackdropFilter: 'blur(30px) saturate(180%)',
-          background: 'rgba(255, 255, 255, 0.08)',
-          borderBottom: '1px solid rgba(255, 255, 255, 0.1)'
+          backdropFilter: "blur(30px) saturate(180%)",
+          WebkitBackdropFilter: "blur(30px) saturate(180%)",
+          background: "rgba(255, 255, 255, 0.08)",
+          borderBottom: "1px solid rgba(255, 255, 255, 0.1)",
         }}
       >
         {/* Header with Logo and Close Button */}
@@ -120,26 +124,42 @@ const HeroSection: React.FC = () => {
       {/* Header with Logo and Navigation */}
       <div
         className={`fixed top-0 left-0 right-0 z-30 flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-16 xl:px-[95px] py-4 sm:py-6 md:py-8 transition-transform duration-300 ${
-          isHeaderVisible ? 'translate-y-0' : '-translate-y-full'
+          isHeaderVisible ? "translate-y-0" : "-translate-y-full"
         }`}
       >
         {/* Logo in top left */}
         <div>
-          <img src="/Subtract.png" alt="Substract" className="h-8 sm:h-10 md:h-12" />
+          <img
+            src="/Subtract.png"
+            alt="Substract"
+            className="h-8 sm:h-10 md:h-12"
+          />
         </div>
 
         {/* Navigation menu in top right - hidden on mobile */}
         <nav className="hidden md:flex items-center gap-4 lg:gap-6 xl:gap-8">
-          <a href="#home" className="nav-link text-white text-sm lg:text-base font-normal">
+          <a
+            href="#home"
+            className="nav-link text-white text-sm lg:text-base font-normal"
+          >
             <span data-text="Home">Home</span>
           </a>
-          <a href="#about" className="nav-link text-white text-sm lg:text-base font-normal">
+          <a
+            href="#about"
+            className="nav-link text-white text-sm lg:text-base font-normal"
+          >
             <span data-text="About">About</span>
           </a>
-          <a href="#contact" className="nav-link text-white text-sm lg:text-base font-normal">
+          <a
+            href="#contact"
+            className="nav-link text-white text-sm lg:text-base font-normal"
+          >
             <span data-text="Contact">Contact</span>
           </a>
-          <a href="#work" className="bg-[#3CDA64] text-black text-sm lg:text-base font-semibold px-4 lg:px-5 py-1.5 rounded-lg hover:bg-[#34c257] transition-colors">
+          <a
+            href="#work"
+            className="bg-[#3CDA64] text-black text-sm lg:text-base font-semibold px-4 lg:px-5 py-1.5 rounded-lg hover:bg-[#34c257] transition-colors"
+          >
             Work
           </a>
         </nav>
@@ -160,17 +180,32 @@ const HeroSection: React.FC = () => {
         <div className="max-w-5xl space-y-6 sm:space-y-8 md:space-y-10 lg:space-y-12">
           {/* Main headline with highlighted text */}
           <h1 className="text-[#D7E5FF] text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-light leading-[1.15] tracking-tight">
-            We are Melobytecode — We build products from <span className="text-[#3CDA64] italic">concept to code</span>, where strategy meets execution.
+            We are Megabytecode — We build products from{" "}
+            <span className="text-[#3CDA64] italic">concept to code</span>,
+            where strategy meets execution.
           </h1>
 
           {/* Description paragraph */}
           <div className="max-w-3xl pt-2 sm:pt-4 md:pt-6 lg:pt-8 space-y-3 sm:space-y-4">
             <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-light leading-relaxed">
-              We’re an independent <span className="text-[#3CDA64]">web solutions and creative studio</span>helping ideas transform into intuitive, high-impact digital products. From strategy to execution, we craft websites, apps, and interfaces that merge design, technology, and storytelling to create lasting user experiences.
+              We’re an independent{" "}
+              <span className="text-[#3CDA64]">
+                web solutions and creative studio
+              </span>
+              helping ideas transform into intuitive, high-impact digital
+              products. From strategy to execution, we craft websites, apps, and
+              interfaces that merge design, technology, and storytelling to
+              create lasting user experiences.
             </p>
 
             <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-light leading-relaxed">
-              Our journey began with <span className="text-[#3CDA64]">Trip Pe Chalo</span> , a travel-tech platform reimagining how adventurers discover and connect with experiences. Since then, we’ve partnered with startups and creators to build purposeful, scalable, and visually distinct digital ecosystems that not only look great but work beautifully.
+              Our journey began with{" "}
+              <span className="text-[#3CDA64]">Trip Pe Chalo</span> , a
+              travel-tech platform reimagining how adventurers discover and
+              connect with experiences. Since then, we’ve partnered with
+              startups and creators to build purposeful, scalable, and visually
+              distinct digital ecosystems that not only look great but work
+              beautifully.
             </p>
           </div>
 
@@ -185,14 +220,18 @@ const HeroSection: React.FC = () => {
 
       {/* Arrow down on right side - visible only on tablet and desktop */}
       <div className="hidden md:block absolute right-4 sm:right-6 md:right-8 lg:right-12 z-20 arrow-bounce bottom-[15%] sm:bottom-[18%] md:bottom-[20%]">
-        <img src="/arrow.svg" alt="Scroll down" className="h-2 sm:h-2.5 md:h-3" />
+        <img
+          src="/arrow.svg"
+          alt="Scroll down"
+          className="h-2 sm:h-2.5 md:h-3"
+        />
       </div>
 
       {/* Subtle bottom gradient */}
       <div
         className="absolute bottom-0 left-0 right-0 h-40 pointer-events-none"
         style={{
-          background: 'linear-gradient(to top, rgba(0,0,0,0.6), transparent)',
+          background: "linear-gradient(to top, rgba(0,0,0,0.6), transparent)",
         }}
       ></div>
     </div>

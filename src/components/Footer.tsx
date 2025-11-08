@@ -1,43 +1,60 @@
-import React from 'react';
+import React from "react";
 
 const Footer: React.FC = () => {
   const socialLinks = [
-  {
+    {
       id: "instagram",
       label: "Instagram",
       url: "https://instagram.com/hopeworks.in",
-      ariaLabel: "Visit my Instagram profile"
+      ariaLabel: "Visit my Instagram profile",
     },
     {
       id: "github",
       label: "Github",
       url: "https://github.com/gyanraj06",
-      ariaLabel: "Visit my GitHub profile"
+      ariaLabel: "Visit my GitHub profile",
     },
-    
+
     {
       id: "linkedin",
       label: "LinkedIn",
       url: "https://www.linkedin.com/in/mayank-ramani-entrepreneur/",
-      ariaLabel: "Visit my LinkedIn profile"
+      ariaLabel: "Visit my LinkedIn profile",
     },
-    
   ];
 
   return (
     <footer id="contact" className="w-full bg-[#111111]">
       {/* Top Section with Tagline */}
       <div className="min-h-[80px] sm:min-h-[96px] flex items-center justify-center border-b border-white/10 px-4 sm:px-8 md:px-12 lg:px-[60px] py-4 sm:py-6">
-        <p className="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-[32px] font-light text-center" style={{ letterSpacing: '-0.96px', lineHeight: '1.3' }}>
+        <p
+          className="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-[32px] font-light text-center"
+          style={{ letterSpacing: "-0.96px", lineHeight: "1.3" }}
+        >
           A quiet footprint in the endless hum of the internet.
         </p>
       </div>
 
       {/* Decorative SVG Wave Border */}
       <div className="w-full overflow-visible h-[50px] sm:h-[60px] md:h-[70px] mb-4 sm:mb-6 md:mb-8">
-        <svg width="100%" height="70" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 30 Q 180 0 360 30 T 720 30 T 1080 30 T 1440 30 V 60 H 0 Z" fill="#111111" />
-          <path d="M0 30 Q 180 60 360 30 T 720 30 T 1080 30 T 1440 30" stroke="rgba(255,255,255,0.1)" strokeWidth="1" fill="none" />
+        <svg
+          width="100%"
+          height="70"
+          viewBox="0 0 1440 60"
+          preserveAspectRatio="none"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 30 Q 180 0 360 30 T 720 30 T 1080 30 T 1440 30 V 60 H 0 Z"
+            fill="#111111"
+          />
+          <path
+            d="M0 30 Q 180 60 360 30 T 720 30 T 1080 30 T 1440 30"
+            stroke="rgba(255,255,255,0.1)"
+            strokeWidth="1"
+            fill="none"
+          />
         </svg>
       </div>
 
@@ -52,7 +69,7 @@ const Footer: React.FC = () => {
               rel="noopener noreferrer"
               aria-label={link.ariaLabel}
               className="footer-link bg-black rounded-xl h-[42px] sm:h-[46px] text-white font-normal text-sm sm:text-base transition-transform hover:scale-105 hover:bg-black/80 overflow-hidden"
-              style={{ letterSpacing: '-0.48px' }}
+              style={{ letterSpacing: "-0.48px" }}
             >
               <span className="flip-text">{link.label}</span>
               <svg
@@ -84,7 +101,7 @@ const Footer: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="w-full bg-[#3CDA64] rounded-xl h-[42px] sm:h-[46px] flex items-center justify-center text-black font-medium text-sm sm:text-base transition-transform hover:scale-[1.02] hover:bg-[#3CDA64]/90"
-            style={{ letterSpacing: '-0.48px' }}
+            style={{ letterSpacing: "-0.48px" }}
           >
             Have a Requirement? Contact Us! 👋
           </a>
@@ -95,9 +112,16 @@ const Footer: React.FC = () => {
       <div className="min-h-[120px] sm:min-h-[135px] md:min-h-[151px] border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 px-4 sm:px-8 md:px-12 lg:px-[60px] py-6 sm:py-8">
         {/* Left Side - Logo */}
         <div className="flex items-center gap-2 sm:gap-3">
-          <img src="/Subtract.png" alt="Logo" className="h-5 sm:h-6 object-contain" />
-          <span className="text-white text-lg sm:text-xl md:text-2xl font-semibold text-center sm:text-left" style={{ letterSpacing: '-0.96px' }}>
-            Melobytecode
+          <img
+            src="/Subtract.png"
+            alt="Logo"
+            className="h-5 sm:h-6 object-contain"
+          />
+          <span
+            className="text-white text-lg sm:text-xl md:text-2xl font-semibold text-center sm:text-left"
+            style={{ letterSpacing: "-0.96px" }}
+          >
+            Megabytecodecode
           </span>
         </div>
 
