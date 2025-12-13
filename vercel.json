@@ -1,5 +1,6 @@
 {
-    "buildCommand": "npm install && npx vite build",
+    "buildCommand": "npm run build",
+    "installCommand": "npm ci",
     "outputDirectory": "dist",
-    "framework": "vite"
+    "framework": null
 }
