@@ -112,7 +112,7 @@ const ExperienceSection: React.FC = () => {
             <div className="experience-card w-full">
               <div
                 className="relative group cursor-pointer"
-                onClick={() => handleProjectClick('unity')}
+                onClick={() => handleProjectClick(projects[1].id)}
               >
                 <img
                   src={projects[1].thumbnail}
@@ -149,11 +149,11 @@ const ExperienceSection: React.FC = () => {
               </div>
             </div>
 
-            {/* Card 3 - Stockone */}
+            {/* Card 3 - Happy Holidays */}
             <div className="experience-card w-full">
               <div
                 className="relative group cursor-pointer"
-                onClick={() => handleProjectClick('stockone')}
+                onClick={() => handleProjectClick(projects[2].id)}
               >
                 <img
                   src={projects[2].thumbnail}
@@ -238,7 +238,7 @@ const ExperienceSection: React.FC = () => {
             <div className="experience-card w-full">
               <div
                 className="relative group cursor-pointer"
-                onClick={() => handleProjectClick('divyafal')}
+                onClick={() => handleProjectClick(projects[4].id)}
               >
                 <img
                   src={projects[4].thumbnail}
@@ -279,7 +279,7 @@ const ExperienceSection: React.FC = () => {
             <div className="experience-card w-full">
               <div
                 className="relative group cursor-pointer"
-                onClick={() => handleProjectClick('personal-portfolio')}
+                onClick={() => handleProjectClick(projects[5].id)}
               >
                 <img
                   src={projects[5].thumbnail}
