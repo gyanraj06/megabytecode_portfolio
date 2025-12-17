@@ -190,7 +190,7 @@ const HeroSection: React.FC = () => {
             <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-light leading-relaxed">
               We’re an independent{" "}
               <span className="text-[#3CDA64]">
-                web solutions and creative studio
+                web solutions and creative studio  
               </span>
               helping ideas transform into intuitive, high-impact digital
               products. From strategy to execution, we craft websites, apps, and
