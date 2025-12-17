@@ -13,22 +13,22 @@ const MyApproachSection: React.FC = () => {
     {
       id: 1,
       title: 'User Research',
-      description: 'I conduct thorough research, using methods like interviews, surveys, and analytics to gather qualitative and quantitative data. This guides design decisions, ensuring the final output.'
+      description: 'Weconduct thorough research, using methods like interviews, surveys, and analytics to gather qualitative and quantitative data. This guides design decisions, ensuring the final output.'
     },
     {
       id: 2,
       title: 'Prototyping & User Testing',
-      description: 'I create interactive prototypes, facilitating user feedback through usability testing and iterative refinement for a user-friendly and intuitive product.'
+      description: 'Wecreate interactive prototypes, facilitating user feedback through usability testing and iterative refinement for a user-friendly and intuitive product.'
     },
     {
       id: 3,
       title: 'User-Centered Design',
-      description: 'I apply User-Centered Design principles, involving users from ideation to validation to ensure a positive and seamless experience throughout the process.'
+      description: 'Weapply User-Centered Design principles, involving users from ideation to validation to ensure a positive and seamless experience throughout the process.'
     },
     {
       id: 4,
       title: 'Responsive & Accessible',
-      description: 'I prioritize responsive and accessible design, ensuring the digital product is user-friendly across devices and abilities. This approach enhances the overall user experience.'
+      description: 'Weprioritize responsive and accessible design, ensuring the digital product is user-friendly across devices and abilities. This approach enhances the overall user experience.'
     }
   ];
 
@@ -75,9 +75,8 @@ const MyApproachSection: React.FC = () => {
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    className={`text-[#3CDA64] transition-transform duration-300 ${
-                      openItem === item.id ? 'rotate-180' : ''
-                    }`}
+                    className={`text-[#3CDA64] transition-transform duration-300 ${openItem === item.id ? 'rotate-180' : ''
+                      }`}
                   >
                     <path
                       d="M19 9L12 16L5 9"
@@ -92,9 +91,8 @@ const MyApproachSection: React.FC = () => {
 
               {/* Accordion Content */}
               <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                  openItem === item.id ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                }`}
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${openItem === item.id ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                  }`}
               >
                 <div className="pb-4 sm:pb-5 px-4 sm:px-6 pt-2">
                   <p className="text-white/70 text-sm sm:text-base font-light leading-relaxed">
