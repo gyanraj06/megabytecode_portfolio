@@ -49,7 +49,7 @@ const AboutMeSection: React.FC = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            
+
 
             <div className="flex flex-col gap-4 text-center lg:text-left mt-6">
               <div>
@@ -60,7 +60,7 @@ const AboutMeSection: React.FC = () => {
                   href="mailto:nalaprasaddesigns@gmail.com"
                   className="text-white text-xs sm:text-sm md:text-base font-light hover:text-[#3CDA64] transition-colors"
                 >
-                  Hopeworks Media 
+                  Mounterra Innovations LLP.
                 </a>
               </div>
 
