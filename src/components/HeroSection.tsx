@@ -64,11 +64,10 @@ const HeroSection: React.FC = () => {
 
       {/* Mobile Menu Overlay */}
       <div
-        className={`fixed top-0 left-0 right-0 md:hidden transition-all duration-300 ease-in-out rounded-b-3xl ${
-          isMobileMenuOpen
+        className={`fixed top-0 left-0 right-0 md:hidden transition-all duration-300 ease-in-out rounded-b-3xl ${isMobileMenuOpen
             ? "translate-y-0 z-50 opacity-100"
             : "-translate-y-full z-[-1] opacity-0"
-        }`}
+          }`}
         style={{
           backdropFilter: "blur(30px) saturate(180%)",
           WebkitBackdropFilter: "blur(30px) saturate(180%)",
@@ -123,9 +122,8 @@ const HeroSection: React.FC = () => {
 
       {/* Header with Logo and Navigation */}
       <div
-        className={`fixed top-0 left-0 right-0 z-30 flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-16 xl:px-[95px] py-4 sm:py-6 md:py-8 transition-transform duration-300 ${
-          isHeaderVisible ? "translate-y-0" : "-translate-y-full"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-30 flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-16 xl:px-[95px] py-4 sm:py-6 md:py-8 transition-transform duration-300 ${isHeaderVisible ? "translate-y-0" : "-translate-y-full"
+          }`}
       >
         {/* Logo in top left */}
         <div>
@@ -190,8 +188,8 @@ const HeroSection: React.FC = () => {
             <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-light leading-relaxed">
               We’re an independent{" "}
               <span className="text-[#3CDA64]">
-                web solutions and creative studio  
-              </span>
+                web solutions and creative studio
+              </span>{" "}
               helping ideas transform into intuitive, high-impact digital
               products. From strategy to execution, we craft websites, apps, and
               interfaces that merge design, technology, and storytelling to

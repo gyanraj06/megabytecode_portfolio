@@ -6,20 +6,20 @@ const Footer: React.FC = () => {
       id: "instagram",
       label: "Instagram",
       url: "https://instagram.com/hopeworks.in",
-      ariaLabel: "Visit my Instagram profile",
+      ariaLabel: "Visit our Instagram profile",
     },
     {
-      id: "github",
-      label: "Github",
-      url: "https://github.com/gyanraj06",
-      ariaLabel: "Visit my GitHub profile",
+      id: "email",
+      label: "Email",
+      url: "mailto:operations@mounterra.in",
+      ariaLabel: "Mail us",
     },
 
     {
       id: "linkedin",
       label: "LinkedIn",
-      url: "https://www.linkedin.com/in/mayank-ramani-entrepreneur/",
-      ariaLabel: "Visit my LinkedIn profile",
+      url: "https://www.linkedin.com/company/mounterra-innovations",
+      ariaLabel: "Visit our LinkedIn profile",
     },
   ];
 
@@ -121,7 +121,7 @@ const Footer: React.FC = () => {
             className="text-white text-lg sm:text-xl md:text-2xl font-semibold text-center sm:text-left"
             style={{ letterSpacing: "-0.96px" }}
           >
-            Megabytecodecode
+            Megabytecode
           </span>
         </div>
 

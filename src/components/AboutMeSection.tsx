@@ -26,7 +26,7 @@ const AboutMeSection: React.FC = () => {
 
           <p className="text-white/60 text-sm sm:text-base md:text-lg font-light leading-relaxed">
             At our core, we help startups and creators turn messy ideas into
-            clean, functional, and meaningful digital experiences — the kind
+            clean, functional, and meaningful digital experiences - the kind
             that feel effortless, but are crafted with care behind the scenes.
             Whether it’s a full-fledged platform, a sleek landing page, or an
             MVP ready to ship, we focus on clarity, usability, and a touch of

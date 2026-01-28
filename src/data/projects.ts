@@ -24,10 +24,10 @@ export const projects: Project[] = [
       "From local events to large-scale experiences, manage smarter bookings, streamline operations, and grow your events and adventure business with ease.",
     thumbnail: "/experience-card-1.png",
     client: "Trip Pe Chalo",
-    year: "2024",
+    year: "2026",
     role: "Inhouse Startup",
     technologies: ["React", "Node.js", "MongoDB", "TypeScript", "Tailwind CSS"],
-    liveUrl: "https://trippechalo.com",
+    liveUrl: "https://company.trippechalo.in",
     heroImage: "/experience-card-1.png",
     images: ["/experience-card-1.png", "/TPC1.png", "/TPC2.png"],
     overview:
@@ -50,7 +50,7 @@ export const projects: Project[] = [
       "Production grade flutter app design and development for UNITY, an e-scooty brand based out of Bangalore, India on their 4th anniversary.",
     thumbnail: "/Frame-5.png",
     client: "Unity E-Scooty",
-    year: "2024",
+    year: "2025",
     role: "Mobile App Designer & Flutter Developer",
     technologies: [
       "Flutter",
@@ -83,9 +83,9 @@ export const projects: Project[] = [
     thumbnail: "/hh1.png",
     client: "Union Bank (UBEA Initiative)",
     year: "2024",
-    role: "UI/UX Design & Web Interface Development",
+    role: "Full Stack Development",
     technologies: ["React", "Node.js", "PostgreSQL", "Firebase", "Docker"],
-    liveUrl: "https://happyholidays.unionbank.in",
+    liveUrl: "https://unionawasholidayhome.com/",
     heroImage: "/hh1.png",
     images: ["/hh1.png", "/hh2.png", "/hh3.png"],
     overview:
@@ -111,7 +111,7 @@ export const projects: Project[] = [
     year: "2023",
     role: "Product Design and Frontend Development",
     technologies: ["React", "Node.js", "Express", "MySQL", "AWS"],
-    liveUrl: "https://shipkaro.com",
+    liveUrl: "",
     heroImage: "/Frame-38.png",
     images: ["/Frame-38.png"],
     overview:
@@ -137,7 +137,7 @@ export const projects: Project[] = [
     year: "2025",
     role: "Complete E2E Solution",
     technologies: ["React", "Shopify", "JavaScript", "CSS", "Stripe"],
-    liveUrl: "https://divyafal.com",
+    liveUrl: "https://divyafal.com/",
     heroImage: "/Frame-39.png",
     images: ["/Frame-39.png", "/d1.png", "/d2.png"],
     overview:
@@ -160,7 +160,7 @@ export const projects: Project[] = [
       "Managed multiple personal portfolios from different niches and ideologies, bringing ideas and shaping them into personal brands.",
     thumbnail: "/Frame-40.png",
     client: "Various Clients",
-    year: "2022-2024",
+    year: "2022-2026",
     role: "Froentend Development and Integrations",
     technologies: [
       "React",
