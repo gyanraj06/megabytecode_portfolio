@@ -191,11 +191,11 @@ const ExperienceSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Card 4 - Shipkaro - Full width */}
+          {/* Card 4 - Full width */}
           <div className="experience-card w-full mt-8 sm:mt-10 md:mt-12 lg:mt-16">
             <div
               className="relative group cursor-pointer overflow-hidden rounded-[20px] sm:rounded-[30px] md:rounded-[40px]"
-              onClick={() => handleProjectClick('shipkaro')}
+              onClick={() => handleProjectClick(projects[3].id)}
             >
               <img
                 src={projects[3].thumbnail}
