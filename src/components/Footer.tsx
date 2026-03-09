@@ -121,7 +121,7 @@ const Footer: React.FC = () => {
             className="text-white text-lg sm:text-xl md:text-2xl font-semibold text-center sm:text-left"
             style={{ letterSpacing: "-0.96px" }}
           >
-            Megabytecode
+            Mounterra
           </span>
         </div>
 
